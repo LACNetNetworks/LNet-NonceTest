@@ -1,6 +1,6 @@
 # Sample Hardhat Project
 
-Running Test (esta prueba emula un envio correcto en orden secuencial de nonce)
+Running Test (esta prueba emula un envio correcto en orden secuencial de nonce) como funcionaria un sistema de encolamiento de tx.
 
 ```shell
 npx hardhat run scripts/test.js
