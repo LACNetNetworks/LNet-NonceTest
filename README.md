@@ -1,6 +1,6 @@
 # Sample Hardhat Project
 
-Running Test
+Running Test (esta prueba emula un envio correcto en orden secuencial de nonce)
 
 ```shell
 npx hardhat run scripts/test.js
@@ -20,6 +20,8 @@ Tx sent: 0x194dbb3467e82152375a77be942289326ef893904a2a0e5244ea84d0c2fe3294
 Tx confirmed
 Stored Value:  44
 ```
+
+Running Test (esta prueba emula 3 procesos compitiendo por el nonce, en caso de dar error el proximo latest recupera la Tx)
 
 ```
 npx hardhat run scripts/test.js & npx hardhat run scripts/test.js & npx hardhat run scripts/test.js &
