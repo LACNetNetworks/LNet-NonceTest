@@ -39,9 +39,6 @@ async function interactWithStorage() {
     console.log("Contract Address: ", contractAddress);
 
     const nonceLatest = await provider.getTransactionCount(ethers.computeAddress("0x"+privateKey), 'latest');
-    
-    let tx=null;    
-
 
     //Enviar 1 sola TX:
     //console.log("Latest Nonce: ", nonceLatest); 
