@@ -4,6 +4,7 @@ Running Test (esta prueba emula un envio correcto en orden secuencial de nonce)
 
 ```shell
 npx hardhat run scripts/test.js
+
 Compiled 3 Solidity files successfully (evm target: paris).
 Contract Name:  Storage
 Expiration Date: 1765818992685
@@ -26,7 +27,6 @@ Running Test (esta prueba emula 3 procesos compitiendo por el nonce, en caso de 
 ```
 npx hardhat run scripts/test.js & npx hardhat run scripts/test.js & npx hardhat run scripts/test.js &
 
-npx hardhat run scripts/test.js & npx hardhat run scripts/test.js & npx hardhat run scripts/test.js &
 [1] 58308
 [2] 58309
 [3] 58310
