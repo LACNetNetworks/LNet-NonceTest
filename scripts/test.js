@@ -50,7 +50,7 @@ async function interactWithStorage() {
     //await tx.wait();
     //console.log("Transaction confirmed");
 
-    //Enviar multiples TXs controlando el nonce:
+    //Enviar multiples TXs controlando el nonce, simula el encolado de Txs:
     
     let nonce = await signer.getNonce("pending");
     console.log("Initial nonce:", nonce);
